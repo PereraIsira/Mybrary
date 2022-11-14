@@ -3,7 +3,7 @@ const mongoose = require('mongoose')
 const authorSchema = new mongoose.Schema({
     name: {
         type: String,
-        Required: true
+        required: true
     }
 })
 
